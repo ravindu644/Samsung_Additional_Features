@@ -1,8 +1,8 @@
 # Csc Feature Tweaks
 - Add these lines in product/omc/(your region)/config or for Dynamic Partition Devices optics/configs/carriers/(your carrier)/conf.
 - In Higher One UI versions, you need to decrypt > edit > encrypt the cscfeature.xml. So <a href="https://github.com/ravindu644/OmcTextDecoder/releases/tag/0.4">use this tool to decode your csc file.</a>
-## ‼️ Don't add anything unless you don't know what the hell actually this line does, cuz it might crash some settings..‼️
-</hr>
+## ‼️ Don't add anything unless you don't know what the hell actually this line does, cuz it might crash some settings..‼️ <hr>
+
 ### 01. 5 bar signal (Useless for some regions)
 ```
 <CscFeature_SystemUI_ConfigMaxRssiLevel>5</CscFeature_SystemUI_ConfigMaxRssiLevel>
