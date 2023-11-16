@@ -44,6 +44,10 @@
 ```
 <CscFeature_Framework_SupportDataModeSwitchGlobalAction>TRUE</CscFeature_Framework_SupportDataModeSwitchGlobalAction>
 ```
+### 11. Call Recorder.
+```
+<CscFeature_VoiceCall_ConfigRecording>RecordingAllowedByMenu</CscFeature_VoiceCall_ConfigRecording>
+```
 
 ### ¬ Alt Z Life
 ```
