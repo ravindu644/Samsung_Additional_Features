@@ -17,5 +17,5 @@
 <li>Camera Tweaks - <a href="https://github.com/neel021000/MODS">Here</a>
 <li>XDA Thread - <a href="https://forum.xda-developers.com/t/additional-features-for-samsung-devices.4181105/">Here</a>
 
-- Original Owner: <a href="https://github.com/el0xren">el0xren</a>
-- Modified by: <a href="https://t.me/SamsungTweaks">Samsung Tweaks</a>
+*Original Owner: <a href="https://github.com/el0xren">el0xren</a>
+*Modified by: <a href="https://t.me/SamsungTweaks">Samsung Tweaks</a>
