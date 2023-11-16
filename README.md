@@ -48,6 +48,7 @@
 ```
 <CscFeature_VoiceCall_ConfigRecording>RecordingAllowedByMenu</CscFeature_VoiceCall_ConfigRecording>
 ```
+<hr> - Special Thanks : <a href="https://t.me/Hiruka_NU">@Hiruka_NU</a>
 
 ### ¬ Alt Z Life
 ```
