@@ -2,7 +2,48 @@
 - Add these lines in product/omc/(your region)/config or for Dynamic Partition Devices optics/configs/carriers/(your carrier)/conf.
 - In Higher One UI versions, you need to decrypt > edit > encrypt the cscfeature.xml. So <a href="https://github.com/ravindu644/OmcTextDecoder/releases/tag/0.4">use this tool to decode your csc file.</a>
 ## ‼️ Don't add anything unless you don't know what the hell actually this line does, cuz it might crash some settings..‼️
-<hr>
+</hr>
+### 01. 5 bar signal (Useless for some regions)
+```
+<CscFeature_SystemUI_ConfigMaxRssiLevel>5</CscFeature_SystemUI_ConfigMaxRssiLevel>
+```
+### 02. Play songs while recording a video.
+```
+<CscFeature_Camera_CamcorderDoNotPauseMusic>TRUE</CscFeature_Camera_CamcorderDoNotPauseMusic>
+```
+### 03. Camera Tweaks
+```
+<CscFeature_Camera_CameraFlicker>60hz</CscFeature_Camera_CameraFlicker>
+<CscFeature_Camera_DefaultQuality>superfine</CscFeature_Camera_DefaultQuality>
+```
+### 04. Confirmation popup after tapping the quick tooggle for mobile data
+```
+<CscFeature_Setting_EnablePromptPopupWhenActivatingDataConnection>TRUE</CscFeature_Setting_EnablePromptPopupWhenActivatingDataConnection>
+```
+### 05. Data icon style(LTE)
+```
+<CscFeature_SystemUI_ConfigOverrideDataIcon>LTE</CscFeature_SystemUI_ConfigOverrideDataIcon>
+```
+### 06. Data usage in quick panel(Need China smart manager)
+```
+<CscFeature_SystemUI_SupportDataUsageViewOnQuickPanel>TRUE</CscFeature_SystemUI_SupportDataUsageViewOnQuickPanel>
+```
+### 07. Network speed meter
+```
+<CscFeature_Setting_SupportRealTimeNetworkSpeed>TRUE</CscFeature_Setting_SupportRealTimeNetworkSpeed>
+```
+### 08. Camera will works during a call
+```
+<CscFeature_Camera_EnableCameraDuringCall>TRUE</CscFeature_Camera_EnableCameraDuringCall>
+```
+### 09. VoLTE with 3G network(H/H+)
+```
+<CscFeature_Common_EnableHDVoiceDuring3GConnection>TRUE</CscFeature_Common_EnableHDVoiceDuring3GConnection>
+```
+### 10. Mobile data icon in power menu
+```
+<CscFeature_Framework_SupportDataModeSwitchGlobalAction>TRUE</CscFeature_Framework_SupportDataModeSwitchGlobalAction>
+```
 
 ### ¬ Alt Z Life
 ```
