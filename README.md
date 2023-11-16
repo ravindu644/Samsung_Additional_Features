@@ -44,7 +44,7 @@
 ```
 <CscFeature_Framework_SupportDataModeSwitchGlobalAction>TRUE</CscFeature_Framework_SupportDataModeSwitchGlobalAction>
 ```
-### 11. Call Recorder.
+### 11. Call Recording in Samsung Dialer
 ```
 <CscFeature_VoiceCall_ConfigRecording>RecordingAllowedByMenu</CscFeature_VoiceCall_ConfigRecording>
 ```
