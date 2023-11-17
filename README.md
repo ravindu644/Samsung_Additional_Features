@@ -1,5 +1,5 @@
 # Samsung Additional Features 2.0 ! 🔗 <br>
-<img src="[https://i.imgur.com/5TYUsxr.png](https://telegra.ph/file/5ac41e6a89dbce3b20452.jpg)" width="100%">
+<img src="https://telegra.ph/file/5ac41e6a89dbce3b20452.jpg" width="100%">
 
 <p align="center"> Here you can find how to enable additional features to Floating Feature, Build.prop, Csc Feature!
 
