@@ -5,7 +5,7 @@
 
 <p align="center">
 
-<img src="https://img.shields.io/badge/made%20by-Ravindu%20Deshan-blue?style=for-the-badge&logo=appveyor" >
+<img src="https://img.shields.io/badge/made%20by-Samsung%20Tweaks-blue?style=for-the-badge&logo=appveyor" >
 <img src="https://img.shields.io/github/stars/ravindu644/Samsung_Additional_Features?style=for-the-badge">
 <img src="https://img.shields.io/github/issues/ravindu644/Samsung_Additional_Features?style=for-the-badge">
 </p>
