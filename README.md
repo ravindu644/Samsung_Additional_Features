@@ -28,7 +28,7 @@ And change value from "LowEnd" or "Mass" to "HighEnd"
 <SEC_FLOATING_FEATURE_SYSTEM_SUPPORT_ENHANCED_CPU_RESPONSIVENESS>TRUE</SEC_FLOATING_FEATURE_SYSTEM_SUPPORT_ENHANCED_CPU_RESPONSIVENESS>
 ```
 
-### 05. Enable Extra Screen Modes
+### 05. Enable Extra Screen Modes (Might broke original amoled colors)
 
 01. Search for this line and make its value ```FALSE```
 ```
@@ -36,7 +36,7 @@ And change value from "LowEnd" or "Mass" to "HighEnd"
 ```
 02. Search for this line and make its value ```FALSE```
 ```
-<•SEC_FLOATING_FEATURE_LCD_SUPPORT_WIDE_COLOR_GAMUT>
+<SEC_FLOATING_FEATURE_LCD_SUPPORT_WIDE_COLOR_GAMUT>
 ```
 ### 06. Enable Smooth Scroll of Surface Flinger
 ```
