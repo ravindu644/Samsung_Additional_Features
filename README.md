@@ -1,16 +1,56 @@
 # Csc Feature Tweaks
 - Add these lines in product/omc/(your region)/config or for Dynamic Partition Devices optics/configs/carriers/(your carrier)/conf.
 - In Higher One UI versions, you need to decrypt > edit > encrypt the cscfeature.xml. So <a href="https://github.com/ravindu644/OmcTextDecoder/releases/tag/0.4">use this tool to decode your csc file.</a>
-## ‼️ Don't add anything unless you don't know what the hell actually this line does, cuz it might crash some settings..‼️ <hr>
-
-<hr> - Special Thanks To : <a href="https://t.me/User7884or7885">@User7884or7885</a><br><hr>
+## ‼️ Don't add anything unless you don't know what the hell actually this line does, cuz it might crash some settings..‼️ 
+# New Tweaks 😎
+<hr>
 
 ### 01. Data Icon Style (4G+) 
 ```
 <CscFeature_SystemUI_ConfigOverrideDataIcon>DCM</CscFeature_SystemUI_ConfigOverrideDataIcon>
 ```
-••••••••••••••••••••••••••••••••••••••••••••••••••••
-<hr> - Special Thanks : <a href="https://t.me/Hiruka_NU">@Hiruka_NU</a><br><hr>
+
+### 02. Camera Shutter Sound menu
+```
+<CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>
+```
+
+### 03. Enhance image quality
+```
+<CscFeature_Common_EnhanceImageQuality>TRUE</CscFeature_Common_EnhanceImageQuality>
+<CscFeature_Camera_DefaultQuality>superfine</CscFeature_Camera_DefaultQuality>
+```
+### 04. Mobile Data button on Power Menu
+```
+<CscFeature_Framework_SupportDataModeSwitchGlobalAction>TRUE</CscFeature_Framework_SupportDataModeSwitchGlobalAction>
+```
+
+### 05. USIM info at the bottom of lock screen
+```
+<CscFeature_LockScreen_ConfigCarrierTextPolicy>DisplayUsimText;DisplayPlmnOnBottom</CscFeature_LockScreen_ConfigCarrierTextPolicy>
+```
+
+### 06. Useful Cards menu in Messages
+```
+<CscFeature_Message_SupportUsefulcard>TRUE</CscFeature_Message_SupportUsefulcard>
+```
+
+### 07. NFC Card Mode
+```
+<CscFeature_NFC_ConfigDynamicFirmwareLoading>KOO</CscFeature_NFC_ConfigDynamicFirmwareLoading>
+<CscFeature_NFC_ConfigReaderModeUI>KOREA</CscFeature_NFC_ConfigReaderModeUI>
+```
+
+### 08. NFC icon always in Status Bar
+```
+<CscFeature_SystemUI_ConfigDefIndicatorAdditionalSystemIcon>nfc</CscFeature_SystemUI_ConfigDefIndicatorAdditionalSystemIcon>
+```
+
+### 09. Change 4G icon (value can be CHC, TGY, VZW, ATT, SPR, each one has different 4G icon)
+```
+<CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>CHC</CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>
+```
+<hr> - Special Thanks : <a href="https://t.me/Hiruka_NU">@Hiruka_NU</a> | <a href="https://xdaforums.com/t/csc-feature-mods.4538389/"> This post on XDA </a> | <a href="https://t.me/User7884or7885">@User7884or7885</a><br><hr>
 
 ### 01. 5 bar signal (Useless for some regions)
 ```
