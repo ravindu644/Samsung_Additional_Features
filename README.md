@@ -85,7 +85,7 @@ ro.min.fling_velocity=8000
 ro.min_pointer_dur=8
 touch.pressure.scale=0.1
 ```
-### 14. Video Acceleration Enabled And HW debugging (try at your own risk)
+### 14. Video Acceleration Enabled And HW debugging (Will improve performance)
 ```
 debug.hwui.renderer=skiagl
 video.accelerate.hw=1
@@ -109,7 +109,7 @@ net.eth0.dns2=8.8.4.4
 net.gprs.dns1=8.8.8.8
 net.gprs.dns2=8.8.4.4
 ```
-### 16. Disable Knox
+### 16. Disable Knox (try at your own risk!)
 ```
 ro.config.knox=0
 ro.config.iccc_version=0
