@@ -60,8 +60,58 @@ ro.config.hw_fast_dormancy=1
 ```
 persist.adb.notify=0
 ```
+### 11. General Performance
+```
+debug.sf.hw=1
+persist.sys.ui.hw=1
+```
+### 11. Saves power
+```
+ro.ril.disable.power.collapse=1
+pm.sleep_mode=1
+windowsmgr.max_events_per_sec=60
+wifi.supplicant_scan_interval=180
+```
+### 12. Faster boot time
+```
+persist.sys.shutdown.mode=hibernate
+ro.config.hw_quickpoweron=true
+```
+### 13. Better Responsiveness & Speed 
+```
+windowsmgr.max_events_per_sec=300
+ro.max.fling_velocity=15000 
+ro.min.fling_velocity=8000 
+ro.min_pointer_dur=8
+touch.pressure.scale=0.1
+```
+### 14. Video Acceleration Enabled And HW debugging
+```
+debug.hwui.renderer=skiagl
+video.accelerate.hw=1
+debug.sf.hw=1
+debug.performance.tuning=1
+debug.egl.hw=1
+debug.composition.type=gpu
+```
+### 15. GOOGLE DNS
+```
+net.dns1=8.8.8.8
+net.dns2=8.8.4.4
+net.rmnet0.dns1=8.8.8.8
+net.rmnet0.dns2=8.8.4.4
+net.ppp0.dns1=8.8.8.8
+net.ppp0.dns2=8.8.4.4
+net.wlan0.dns1=8.8.8.8
+net.wlan0.dns2=8.8.4.4
+net.eth0.dns1=8.8.8.8
+net.eth0.dns2=8.8.4.4
+net.gprs.dns1=8.8.8.8
+net.gprs.dns2=8.8.4.4
+```
+
 Credit: <a href="https://xdaforums.com/t/tweaks-guide-build-prop-tweaks.3376962/">@XDA
-</a><hr>
+</a> | [This post](https://xdaforums.com/t/tweaks-for-the-build-prop.3456214/) <hr>
 
 ### ¬ Enable Zygote preforking
 ```
