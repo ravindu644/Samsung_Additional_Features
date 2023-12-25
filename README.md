@@ -85,7 +85,7 @@ ro.min.fling_velocity=8000
 ro.min_pointer_dur=8
 touch.pressure.scale=0.1
 ```
-### 14. Video Acceleration Enabled And HW debugging
+### 14. Video Acceleration Enabled And HW debugging (try at your own risk)
 ```
 debug.hwui.renderer=skiagl
 video.accelerate.hw=1
