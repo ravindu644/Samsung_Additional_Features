@@ -109,6 +109,12 @@ net.eth0.dns2=8.8.4.4
 net.gprs.dns1=8.8.8.8
 net.gprs.dns2=8.8.4.4
 ```
+### 16. Disable Knox
+```
+ro.config.knox=0
+ro.config.iccc_version=0
+ro.config.knox.ucm=0
+```
 
 Credit: <a href="https://xdaforums.com/t/tweaks-guide-build-prop-tweaks.3376962/">@XDA
 </a> | [This post](https://xdaforums.com/t/tweaks-for-the-build-prop.3456214/) <hr>
