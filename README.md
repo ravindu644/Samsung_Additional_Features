@@ -136,6 +136,8 @@ And add "clocktransition" and "activeclock=4" in the following line, then it sho
 ```
 <SEC_FLOATING_FEATURE_COMMON_CONFIG_DYN_RESOLUTION_CONTROL>WQHD,FHD,HD</SEC_FLOATING_FEATURE_COMMON_CONFIG_DYN_RESOLUTION_CONTROL>
 ```
+> [!NOTE]  
+> - Remember this code won't works after OneUI2.5+ (After OneUI2.5 it's shifted to Bixby routines)
 ### 10. Enable darker Dark Mode (Needs OneUI 2.5)
 ```
 <SEC_FLOATING_FEATURE_LCD_CONFIG_REPLACE_COLOR_FOR_DARKMODE>#FF171717</SEC_FLOATING_FEATURE_LCD_CONFIG_REPLACE_COLOR_FOR_DARKMODE>
@@ -158,6 +160,8 @@ And edit from Your Model to Your Choosed Name, then it shoud look like this:
 ```
 
 ### 03. Enable Wireless PowerShare
+> [!NOTE]  
+> - Without hardware support it won't work.
 ```
 <SEC_FLOATING_FEATURE_BATTERY_SUPPORT_HV>TRUE</SEC_FLOATING_FEATURE_BATTERY_SUPPORT_HV>
 <SEC_FLOATING_FEATURE_BATTERY_SUPPORT_WIRELESS_HV>TRUE</SEC_FLOATING_FEATURE_BATTERY_SUPPORT_WIRELESS_HV>
@@ -199,11 +203,12 @@ And change value from "TRUE" to "FALSE.
 <SEC_FLOATING_FEATURE_COMMON_SUPPORT_SMART_SWITCH>FALSE</SEC_FLOATING_FEATURE_COMMON_SUPPORT_SMART_SWITCH>
 ```
 
-### 08. Enable Drawer Clearer Contrast
+### 08. Enable Drawer Clearer Contrast/Live Blur
 ```
 <SEC_FLOATING_FEATURE_GRAPHICS_SUPPORT_3D_SURFACE_TRANSITION_FLAG>TRUE</SEC_FLOATING_FEATURE_GRAPHICS_SUPPORT_3D_SURFACE_TRANSITION_FLAG>
 ```
-
+> [!NOTE]  
+> - Live Blur requires it's proper libs and bins to make it working.
 ### 09. Disable Samsung Ads
 Search for the following line in floating_feature.xml:
 ```
@@ -252,3 +257,8 @@ Change values from 0000 to your dependencies.
 ```
 <SEC_FLOATING_FEATURE_CLOCK_CONFIG_ALARM_SOUND>spotify</SEC_FLOATING_FEATURE_CLOCK_CONFIG_ALARM_SOUND>
 ```
+### 17. Enable Lock screen wallpaper as AOD screen (OneUI 6.0+)
+> [!NOTE]  
+> - Requires device resource support.
+```<SEC_FLOATING_FEATURE_LCD_CONFIG_AOD_FULLSCREEN>1</SEC_FLOATING_FEATURE_LCD_CONFIG_AOD_FULLSCREEN>```
+
