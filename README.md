@@ -6,7 +6,7 @@ ro.com.google.cdb.spa1=bsxasm1
 ro.bbt.support.circle2search=true
 ```
 > [!NOTE]  
-> - These circle to search build.prop codes are nore enough to enable circle2search, it requires framework & device support but it's also a part of circle to search that's why it's given here.
+> - These two circle to search build.prop codes aren't enough to enable circle2search, it requires framework & device support, but it's also a part of circle to search that's why it's given here.
 ### 01. Camera Tweaks -> Improves audio and video recording quality
 ```
 ro.media.enc.jpeg.quality=100
