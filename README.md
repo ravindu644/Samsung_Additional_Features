@@ -327,3 +327,24 @@ ro.surface_flinger.protected_contents=true
 ```
 > [!NOTE]  
 > - This code will enable Rounded corners for PIP - Picture in picture.
+
+### 44. Enable Webcam support for OneUI6.0+
+```
+ro.usb.uvc.enabled=true
+```
+### 45. Enable Angle Support OneUi6.0+
+```
+ro.gfx.angle.supported=true
+```
+### 46. Change User interface like Tablet
+```
+ro.build.characteristics=tablet
+```
+### 47. Less ram usage
+```
+debug.force_low_ram=true
+```
+### 48. Less battery use
+```
+ro.config.small_battery=true
+```
