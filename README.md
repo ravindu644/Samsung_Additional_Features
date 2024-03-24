@@ -28,9 +28,6 @@ You have been warned ‼️.
 <li>Csc Feature Tweaks - <a href="https://github.com/ravindu644/Samsung_Additional_Features/tree/cscfeature">Here</a>
 <li>Build.prop Tweaks - <a href="https://github.com/ravindu644/Samsung_Additional_Features/tree/buildprop">Here</a>
 <li>Camera Tweaks - Soon !
-<li>Optimization Guides Root+Non-Root - <a
-href="https://github.com/ravindu644/Samsung_Additional_Features/tree/non-root-tweaks">
-Here</a>
 <li>Debloat list - <a href="https://github.com/ravindu644/Samsung_Additional_Features/tree/debloat">Here</a>
 
 <hr>Original Owner: <a href="https://github.com/el0xren">el0xren</a> | Modified by: <a href="https://t.me/SamsungTweaks">Samsung Tweaks</a>
