@@ -42,9 +42,9 @@ profiler.force_disable_ulog=1
 ```
 net.tcp.buffersize.default=4096,87380,256960,4096,16384,256960
 net.tcp.buffersize.wifi=4096,87380,256960,4096,16384,256960
-net.tcp.buffersize.umts=4096,8 7380,256960,4096,16384,256960
-net.tcp.buffersize.gprs=4096,8 7380,256960,4096,16384,256960
-net.tcp.buffersize.edge=4096,8 7380,256960,4096,16384,256960
+net.tcp.buffersize.umts=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.gprs=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.edge=4096,87380,256960,4096,16384,256960
 ```
 ### 07. Disables logcat
 ```
@@ -332,6 +332,8 @@ ro.surface_flinger.protected_contents=true
 ```
 ro.usb.uvc.enabled=true
 ```
+> [!NOTE]  
+> - Requires kernel support & plugins.
 ### 45. Enable Angle Support OneUi6.0+
 ```
 ro.gfx.angle.supported=true
