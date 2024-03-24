@@ -1,6 +1,12 @@
 # Build.prop Tweaks
 Add these lines in Build.prop, which is located in system/system. (Some probably is placebo i haven't tested all of them)
-
+### 01. Circle to search A14+
+```
+ro.com.google.cdb.spa1=bsxasm1
+ro.bbt.support.circle2search=true
+```
+> [!NOTE]  
+> - These circle to search build.prop codes are nore enough to enable circle2search, it requires framework & device support but it's also a part of circle to search that's why it's given here.
 ### 01. Camera Tweaks -> Improves audio and video recording quality
 ```
 ro.media.enc.jpeg.quality=100
