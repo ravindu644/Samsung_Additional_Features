@@ -260,5 +260,6 @@ Change values from 0000 to your dependencies.
 ### 17. Enable Lock screen wallpaper as AOD screen (OneUI 6.0+)
 > [!NOTE]  
 > - Requires device resource support.
+
 ```<SEC_FLOATING_FEATURE_LCD_CONFIG_AOD_FULLSCREEN>1</SEC_FLOATING_FEATURE_LCD_CONFIG_AOD_FULLSCREEN>```
 
