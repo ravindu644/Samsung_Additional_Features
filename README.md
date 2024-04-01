@@ -81,6 +81,10 @@
 ```
 <CscFeature_Setting_SupportRealTimeNetworkSpeed>TRUE</CscFeature_Setting_SupportRealTimeNetworkSpeed>
 ```
+- For One UI 6 and up, you will need this line too:
+```
+<CscFeature_Common_SupportZProjectFunctionInGlobal>TRUE</CscFeature_Common_SupportZProjectFunctionInGlobal>
+```
 ### 08. Camera will works during a call
 ```
 <CscFeature_Camera_EnableCameraDuringCall>TRUE</CscFeature_Camera_EnableCameraDuringCall>
